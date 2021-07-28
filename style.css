@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+body{font-family: 'Raleway', sans-serif;
+
+}
+.navbar{
+    display: flex;
+    align-items:center;
+    padding: 20px;
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;   
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    transition: background 0.5s;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px ;
+}
+a{
+    text-decoration: none;
+    color: firebrick;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+ul li a:hover{background: rgb(146, 110, 80)
+
+}
+p{
+    color: firebrick;
+}
+.container{
+    margin: auto;
+    max-width: 1400px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.cal{
+    flex-basis: 50%;
+    min-width: 300px;
+   
+}
+.cal img{
+    max-width: 100%;
+    padding: 20px 0;
+}
+.cal h1{
+    font-size:60px;
+    line-height: 60PX;
+    margin: 30px 0;
+}
+.btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    background: #ff523b;
+    color: floralwhite;
+    margin:30px 0;
+    padding : 8px 25px;
+    border-radius: 35px;
+    transition:background  0.5s;
+
+}
+.btn:hover{background: rgb(33, 196, 207);
+}
+
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+
+.header .row{
+    margin-top: 60px;
+
+}
