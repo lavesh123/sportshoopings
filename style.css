@@ -7,6 +7,11 @@
 body{font-family: 'Raleway', sans-serif;
 
 }
+
+.background-color{
+    background-color: red;
+}
+
 .navbar{
     display: flex;
     align-items:center;
